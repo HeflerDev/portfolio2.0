@@ -1,0 +1,27 @@
+{
+  "name": "portfolio2.0",
+  "version": "1.0.0",
+  "description": "My personal portfolio reorganized",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
+    "build": "webpack"
+  },
+  "author": "HeflerDev",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^5.1.1",
+    "jest": "^26.6.3",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.24.3",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "csstack": "^1.2.5"
+  }
+}
