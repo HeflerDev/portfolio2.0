@@ -1,8 +1,187 @@
-* {
-  background-color: rgba(52, 52, 52, 0.2);
+$color-black-deep: #373737;
+$color-gray-neutral: #7B7B7B;
+$color-gray-snow: #EAEFF5;
+$color-orange-fire: #F13913;
+$color-orange: #DB3513;
+
+$radius: 15px;
+
+$js-svg: url('./res/javascript.svg');
+$rails-svg: url('./res/rails.svg');
+$ruby-svg: url('./res/ruby.svg');
+$webdev-svg: url('./res/webdev.svg');
+$react-svg: url('./res/react.svg');
+$redux-svg: url('./res/redux.svg');
+$node-svg: url('./res/node.svg');
+$location-svg: url('./res/location.svg');
+
+$png-contact: url('./res/contact.png');
+$png-project: url('./res/project.png');
+
+$jpg-profile: url('./res/profile.jpg');
+ 
+header, nav {
+  background-color: $color-black-deep;
+  color: whitesmoke;
+  margin: 0 !important;
 }
 
-header, nav {
-  margin: 0 !important;
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+p {
+  color: $color-gray-neutral;
+}
+
+header {
+  p, h1 {
+    text-align: left; 
+  }
+}
+
+.container {
+  padding: 1rem;
+}
+
+.stack {
   padding: 0 !important;
+}
+
+.qualities {
+  p {
+    text-align: right;
+  }
+}
+
+.skills-container {
+  div {
+    border: solid $color-gray-neutral 3px;
+    border-radius: $radius;
+    padding: 1rem;
+    margin: 0.8rem  auto;
+    h4 {
+      text-align: left;
+      color: $color-black-deep;
+    }
+    p {
+      text-align: left;
+      font-size: 0.8rem;
+    }
+  }
+
+  .icon-container {
+    width: 3rem;
+    height: 3rem;
+    margin-left: 0;
+    background-color: $color-orange;
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 50%;
+  }
+
+  .javascript {
+    background-image: $js-svg;
+  }
+
+  .rails {
+    background-image: $rails-svg;
+  }
+
+  .ruby {
+    background-image: $ruby-svg;
+  }
+
+  .webdev {
+    background-image: $webdev-svg;
+  }
+
+  .react {
+    background-image: $react-svg;
+  }
+
+  .redux {
+    background-image: $redux-svg;
+  }
+
+  .node {
+    background-image: $node-svg;
+  }
+}
+
+.projects {
+  background-image: $png-project;
+  background-size: 200%;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: left;
+  padding: 1rem;
+
+  color: whitesmoke;
+
+  .check {
+    background-color: $color-orange-fire;    
+    width: 8rem;
+    height: 2rem;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+  }
+}
+
+.about {
+  background-color: $color-gray-snow;
+  margin: 1rem auto !important;
+  p {
+    text-align: center;
+    margin: auto;
+  }
+  .profile-pic {
+    background-image: $jpg-profile;
+    background-position: center;
+    background-size: 120%;
+    border: solid $color-orange-fire 0.5rem;
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+    margin:auto;
+  }
+}
+
+.contact {
+  background-image: $png-contact;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 1rem 0.1rem;
+
+  a {
+    color: $color-orange-fire;
+    font-decoration: no-decoration;
+  }
+
+  p {
+    color: white;
+  }
+
+  button {
+    background-color: rgba(0, 0, 0, 0);
+    color: $color-orange-fire;
+    border: solid $color-orange-fire 0.2rem;
+  }
 }

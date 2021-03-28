@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title></title>
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 </head>
 <body>
 
@@ -19,99 +20,150 @@
     <div class="board">
       <div class='col-12'>
         <h1>Hello, I'm Hefler.</h1>
-        <p>| Full-Stack Developer</p>
+        <p><span>|</span> Full-Stack Developer</p>
       </div>
     </div>
-    <img src="#" alt="pc img here">
-    <div class="board">
-      <p class='col-12'>Develop</p>
-      <p class='col-12'>Program</p>
-      <p class='col-12'>Solve</p>
-      <p class='col-12'>Create</p>
+    <img id="computer-img" src="" alt="computer">
+    <div class="qualities">
+      <p>Develop</p>
+      <p>Program</p>
+      <p>Solve</p>
+      <p>Create</p>
     </div>
   </header>
 
   <main class='stack'>
-    <div class="board">
+    <div class="board container">
       <div class="col-12 queue around">
-        <img src="#" alt="facb">
-        <img src="#" alt="gith">
-        <img src="#" alt="inst">
+        <span class="iconify" data-icon="cib:linkedin" data-inline="false"></span>
+        <span class="iconify" data-icon="bi:github" data-inline="false"></span>
+        <span class="iconify" data-icon="cib:instagram" data-inline="false"></span>
       </div>
     </div>
 
-    <div class="board">
+    <div class="board container">
       <div class='col-12'>
         <h2>How May I be of Service?</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          I'm a Full-Stack Developer passionate about building ideas into software. <br />
+          I focus not on only solutions, but to adapt them, taking the middle line between creativity and logic to build up the final product.
         </p>
       </div>
     </div>
 
-    <hr>
-
     <div class="board">
       <div class="col-12">
         <h2>My Skills</h2>
-        <div class="board">
-          <div class="col-6">Container</div>
-          <div class="col-6">Container</div>
-          <div class="col-6">Container</div>
-          <div class="col-6">Container</div>
-          <div class="col-6">Container</div>
+        <div class="board skills-container">
+
+          <div class="col-11">
+            <div class="icon-container webdev"></div>
+            <h4>Web Development</h4>
+            <p>
+              With the power of <strong>HTML5</strong>, <strong>CSS</strong> and It's frameworks, I'm able to create and style any website with full-responsivity.
+            </p>
+          </div>
+
+          <div class="col-5">
+            <div class="icon-container javascript"></div>
+            <h4>JavaScript</h4>
+            <p>
+              As <strong>Front-End</strong>.
+            </p>
+          </div>
+
+          <div class="col-5">
+            <div class="icon-container ruby"></div>
+            <h4>Ruby</h4>
+            <p>
+              As <strong>Back-End.</strong>
+            </p>
+          </div>
+
+          <div class="col-5">
+            <div class="icon-container node"></div>
+            <h4>Node.js</h4>
+            <p>
+              Because <strong>NPM</strong> is life.
+            </p>
+          </div>
+
+          <div class="col-5">
+            <div class="icon-container rails"></div>
+            <h4>Ruby on Rails</h4>
+            <p>
+              Mostly to handle relational databases.
+            </p>
+          </div>
+
+          <div class="col-11">
+            <div class="icon-container react"></div>
+            <h4>React</h4>
+            <p>
+              Created by <strong>Facebook</strong>, this library is a strong tool for building user interfaces.
+            </p>
+          </div>
+
+          <div class="col-11">
+            <div class="icon-container redux"></div>
+            <h4>Redux</h4>
+            <p>
+              Awesome tool to manage an application state.
+            </p>
+          </div>
+
         </div>
       </div>
     </div>
 
     <hr>
 
-    <div class="board">
+    <div class="board projects container">
       <div class="col-12">
         <h2>Projects</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed cras ornare arcu dui vivamus arcu felis.
         </p>
-        <button>
+        <button class="check">
           Check
         </button>
       </div>
     </div>
     
-    <div class="board">
+    <div class="board about container ">
       <div class="col-12">
         <h2>About Me</h2>
         <div class="queue">
-          <img src="#" alt="vector">
-          <p>Porto Alegre, Rio Grande do Sul</p>
+          <p><span class="iconify" data-icon="entypo:location-pin" data-inline="false" style="color: #F13913;"></span>Porto Alegre, Rio Grande do Sul, Brazil</p>
         </div>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed cras ornare arcu dui vivamus arcu felis.
+          Passionated Developer, love how the algorythms are capable of bringing life to projects I work on, almost feeling like a Dr.Frankestein using packages to develop an app!
         </p>
       </div>
       <div class="col-12">
-        <img src="#" alt="Profile Pic">
+        <div class="profile-pic"></div>
       </div>
     </div>
 
-    <footer class="board">
+    <footer class="board contact">
       <div class='col-12'>
         <button>Contact</button>
       </div>
       <div class="col-12">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed cras ornare arcu dui vivamus arcu felis.
+          So, want to get in touch?<br />
+        
+          <strong>
+            <span class="iconify" data-icon="cib:linkedin" data-inline="false" style="color: #F13913;"></span>
+            Contact me through <a href="https://linkedin.com/in/heflerdev" target="_blank" rel="no-referrer">LinkedIn</a>.
+          </strong>
         </p>
-        <div class="queue">
-          <img src="#" alt="linkdin">
-          <p>Contact Through Linkedin.</p>
-        </div>
-        <div class="queue">
-          <img src="#" alt="gmail">
-          <p>Contact Through Gmail.</p>
-        </div>
+          
         <p>
-          For more Casual, Twitter.
+          <strong>
+            <span class="iconify" data-icon="cib:gmail" data-inline="false" style="color: #F13913;"></span></span>
+            Gmail <a href="mailto:heflerdev@gmail.com" target="_blank" rel="no-referrer">heflerdev@gmail.com</a>.
+          </strong>
         </p>
       </div>
     </footer>

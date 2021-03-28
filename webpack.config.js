@@ -21,6 +21,25 @@ module.exports = {
         ],
       },
       {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: "file-loader",
+          },
+        ],
+      },
+      {
+        test: /\.svg$/i,
+        use: [
+          {
+            loader: "svg-url-loader",
+            options: {
+              limit: 1000,
+            },
+          },
+        ],
+      },
+      {
         test: /\.css$/i,
         use: [
           "style-loader",
